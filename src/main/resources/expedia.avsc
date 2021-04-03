@@ -1,0 +1,65 @@
+{
+  "type" : "record",
+  "name" : "topLevelRecord",
+  "fields" : [ {
+    "name" : "id",
+    "type" : [ "long", "null" ]
+  }, {
+    "name" : "date_time",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "site_name",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "posa_continent",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "user_location_country",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "user_location_region",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "user_location_city",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "orig_destination_distance",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "user_id",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "is_mobile",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "is_package",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "channel",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "srch_ci",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "srch_co",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "srch_adults_cnt",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "srch_children_cnt",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "srch_rm_cnt",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "srch_destination_id",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "srch_destination_type_id",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "hotel_id",
+    "type" : [ "long", "null" ]
+  } ]
+}
